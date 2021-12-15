@@ -1,0 +1,10 @@
+@charset "utf-8";
+body {
+    background-color: black;
+}
+p {
+    color: red;
+}
+li {
+    color: #fff;
+}
