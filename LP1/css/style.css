@@ -1,0 +1,409 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+  background-color: rgba(222, 184, 135, 0.25);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+.header-all {
+    background: #fff;
+    width: 100%;
+}
+.inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header-nav ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+.header-nav ul li {
+    display: table-cell;
+}
+.header-nav ul li a {
+    display: block;
+    margin: 25px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 2px solid #fff;
+    transition: .5s;
+}
+.header-nav ul li a:hover {
+    color: #888;
+    border-bottom: solid 2px #ccc;
+}
+.header-nav ul li a span {
+    display: block;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.top-all {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: url(../img/top.png) no-repeat center;
+    background-size: 100%;
+}
+.top-all::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+.top-inner {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.top-inner h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #ddd;
+}
+.top-inner p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ddd;
+}
+.top-inner .top-button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 5px;
+}
+.top-button:hover {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+}
+.section {
+    padding: 150px 0;
+    border-top: solid 3px #fe9;
+}
+.section:nth-of-type(odd) {
+    background-color: #eee;
+}
+.about-img {
+    position: relative;
+}
+.about-img::after {
+    content: "";
+    position: absolute;
+    background: url("../img/about.png") no-repeat center;
+    background-size: cover;
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 100%;
+}
+.concept-img {
+    position: relative;
+}
+.concept-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background: url(../img/concept.png) no-repeat center;
+    background-size: cover;
+}
+.descript {
+    margin-left: 60%;
+}
+.descript-left {
+    width: 40%;
+    height: 50%;
+}
+.title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    line-height: 1.4;
+    font-size: 40px;
+    font-weight: bold;
+    color: #555;
+}
+.title span {
+    display: block;
+    font-size: 20px;
+}
+.txt h3 {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 30px;
+}
+.txt p {
+    color: #555;
+}
+.txt p strong {
+    font-weight: bold;
+    color: #555;
+    background: linear-gradient(transparent 60%, #fe9);
+}
+.flame {
+    display: inline-table;
+    width: 100%;
+    height: 10%;
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 40px;
+}
+.txt h3 span {
+    display: block;
+    font-size: 20px;
+}
+.txt-content {
+    display: inline-table;
+    width: 30%;
+    padding: 0 15px;
+}
+.txt-content h3 {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 30px;
+}
+.txt-content h3 span {
+    display: block;
+    font-size: 20px;
+}
+.txt-content p {
+    color: #333;
+}
+.txt-content p strong {
+    font-weight: bold;
+    color: #555;
+    background: linear-gradient(transparent 60%, #fe9);
+}
+.sub-title {
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 0;
+}
+.sub-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    background-color: #333;
+    width: 40%;
+    height: 2px;
+    z-index: 1;
+    margin-top: -1px;
+}
+.sub-title span {
+    position: relative;
+    padding-left: 10px;   
+}
+.photo-content {
+    display: inline-table;
+    margin: 15px;
+    width: 30%;
+}
+.photo {
+    width: 100%;
+}
+.price-content {
+    display: inline-table;
+    width: 30%;
+    /* padding: 30px; */
+}
+.price {
+    font-size: 17px;
+    text-align: center;
+    color: #803333;
+    padding-top: 15px;
+}
+.price span {
+    margin-right: 5px;
+    font-style: italic;
+    font-size: 20px;
+}
+.price em {
+    font-style: italic;
+    font-size: 45px;
+}
+.flame-profile {
+    display: inline-table;
+    width: 35%;
+    height: 100%;
+    background: #eee;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 40px;
+}
+.profile-bg {
+    background: #fff;
+    height: 600px;
+    /* 二重で高さの指定をしているのはなぜか */
+}
+.intro {
+    display: flex;
+}
+.intro-img {
+    width: 40%;
+    padding-right: 40px;
+}
+.intro-img img {
+    width: 100%;
+}
+.txt ul {
+    padding: 10px;
+}
+.txt ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.txt ul li:before {
+    content: "・";
+    position: absolute;
+    left: 0;
+    color: #555;
+}
+.txt table th {
+    padding-right: 10px;
+    border-right: solid 3px #fe9;
+}
+.txt table td {
+    padding-left: 10px;
+}
+
+.blog-block {
+    display: inline-table;
+    margin: 5px;
+}
+.blog-body {
+    margin-top: 10px;
+}
+.blog-body h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+.blog-body p {
+    font-size: 14px;
+    color: #555;
+}
+.button {
+    text-align: center;
+    padding: 15px;
+    background-color: #fe9;
+    border-radius: 10px;
+    width: 25%;
+    margin: 0 auto 150px;
+}
+.button:hover {
+    cursor: pointer;
+    background: #ff6;
+}
+.button a {
+    font-size: 18px;
+    color: #555;
+}
+.bottom {
+    background-color: #803333;
+    padding: 30px 0;
+    text-align: center;
+    color: #eee;
+}
+.footer-logo {
+    text-align: center;
+}
+.footer-logo img {
+    width: 200px;
+}
+.footer-sns {
+    text-align: center;
+    list-style: none;
+}
+.footer-sns li a img {
+    width: 70px;
+}
+
+.works {
+    background: #eee;
+    padding: 100px 0;
+}
+.work-content-wrapper {
+    display: table;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.work-content {
+    position: relative;
+    display: table-cell;
+    width: 25%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px;
+    transition: .5s;
+}
+.hover {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    z-index: 2;
+    display: none;
+}
+.work-content:hover {
+    position: relative;
+    top: -20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px;
+}
+.work-content:hover .hover{
+    display: inherit;
+}
+/*
+本当は疑似要素を使ってホバーしたときに白が掛かるようにしたかったのですが、
+うまくできなかったのでdiv.work-contentの一番うしろにhoverしたときだけ現れる要素を作って対応しました。
+.work-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    display: none;
+}
+.work-content:hover + .work-content::before {
+    display: inherit;
+} */
+.work-img, .work-img img {
+    width: 100%;
+}
