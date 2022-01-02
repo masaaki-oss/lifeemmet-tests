@@ -1,0 +1,45 @@
+@charset "utf-8";
+.top-title h1 {
+    font-size: 80px;
+  }
+  
+  .top-title p {
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+  }
+.company {
+    width: 100%;
+    display: inline-block;
+}
+.company-inner {
+    margin-top: 150px;
+}
+.company-list {
+    width: 80%;
+    margin: 0 auto 150px;
+}
+.company-list li {
+    display: flex;
+    margin-bottom: 30px;
+}
+.company-list li span {
+    width: 20%;
+    margin-right: 3%;
+    padding: 0 0 30px 20px;
+    border-bottom: 3px solid rgb(189, 120, 230);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.company-list li p{
+    width: 80%;
+    padding: 0 0 30px 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+    text-align: center;
+}
+.company-list li p a {
+    color: rgb(189, 120, 230);
+}

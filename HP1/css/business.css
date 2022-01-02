@@ -1,0 +1,134 @@
+@charset "utf-8";
+.business {
+    margin-top: 200px;
+}
+.business-list {
+    display: inline-block;
+    width: 100%;
+}
+.business-list h1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #555;
+    line-height: 0.8;
+    padding-bottom: 7%;
+}
+.business-list h1 small {
+    font-size: 12px;
+    color: rgb(189, 120, 230);
+}
+.business-list h2 {
+    font-size: 20px;
+    color: #555;
+    font-weight: normal;
+    padding-bottom: 7%;
+}
+.business-list p {
+    width: 80%;
+    font-size: 12px;
+    color: #555;
+    letter-spacing: 3px;
+    line-height: 2.6;
+}
+.business-item1 {
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.business-item2 {
+    width: 60%;
+    float: right;
+    margin-top: 10%;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.business-bg {
+    background: #DEBCF4;
+    width: 85%;
+    height: auto;
+    float: right;
+    position: relative;
+    bottom: 200px;
+    z-index: 0;
+}
+.business-element {
+    padding: 30% 0 5%;
+}
+.business-element ul {
+    background: #fff;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 100px;
+    margin: auto;
+}
+.business-element ul li {
+    list-style: disc;
+    width: 40%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.business-element ul li:last-child {
+    margin-bottom: 0;
+}
+.business-bg .btn {
+    float: right;
+    width: 13%;
+    text-align: center;
+    background: black;
+    padding: 10px 20px;
+    margin: 0 17% 8% 0;
+    border-radius: 10px;
+}
+.business-bg .btn a {
+    color: #fff;
+    font-size: 15px;  
+}
+.business-bg .btn:hover {
+    opacity: 0.5;
+}
+.letter {
+    width: 980px;
+    margin: 0 auto 150px;
+    padding: 0 20px;
+}
+.letter-inner {
+    border: 3px dotted #111;
+    padding: 50px;
+}
+.letter-inner h1 {
+    background-color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 90px;
+    width: 40%;
+    margin: 0 auto 50px;
+    padding: 0 50px;
+    letter-spacing: 5px;
+}
+.letter-list h2 {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+.letter-list h2 small {
+    font-size: 15px;
+    color: rgb(189, 120, 230);
+    text-align: center;
+}
+.letter-item p {
+    letter-spacing: 3px;
+    line-height: 3;
+    margin-bottom: 50px;
+}
+.letter-item p img {
+    width: 100%;
+    height: auto;
+}
