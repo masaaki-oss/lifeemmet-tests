@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <title>HP2</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>logo</h1>
+            </a>
+        </div>
+        <nav class="header-nav">
+            <ul>               
+                <a href="index.html">
+                    <li>トップ</li>
+                </a>
+                <a href="news.html">
+                    <li>おしらせ</li>
+                </a>
+                <a href="business.html">
+                    <li>事業内容</li>
+                </a>
+                <a href="company.html">
+                    <li>企業情報</li>
+                </a>
+                <a href="contact.html">
+                    <li>お問い合わせ</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="page-title" id="page-top">
+        <h2>お問い合わせ</h2>
+        <p>意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。<br>
+            お問い合わせの内容によっては返信に時間がかかる場合や回答を差し控えさせていただく場合もございます。<br>
+            また、土・日、祝日、年末年始休業期間等は、<br>
+            翌営業日以降の対応とさせていただきます。あらかじめご了承ください。<br>
+        </p>
+        <p class="small">※は必須項目です。</p>
+    </section>
+
+    <section class="form">
+        <form action="mail.php" class="contact-form" method="post">
+            <dl>
+                <dt>会社名</dt>
+                <dd><input type="text" name="company-name" id="" placeholder=""></dd>
+            </dl>
+            <dl>
+                <dt>お名前<span class="must">※</span></dt>
+                <dd><input type="text" name="name" id=""></dd>
+            </dl>
+            <dl>
+                <dt>ふりがな<span class="must">※</span></dt>
+                <dd><input type="text" name="name-hurigana" id=""></dd>
+            </dl>
+            <dl>
+                <dt>メールアドレス<span class="must">※</span></dt>
+                <dd><input type="email" name="Email" id=""></dd>
+            </dl>
+            <dl>
+                <dt>お電話番号<span class="must">※</span></dt>
+                <dd><input type="tel" name="tel" id=""></dd>
+            </dl>
+            <dl>
+                <dt>お問い合わせ内容<span class="must">※</span></dt>
+                <dd><textarea name="about" id="" cols="30" rows="10"></textarea></dd>
+            </dl>
+            <dl>
+                <dt>個人情報の取扱い<span class="must">※</span></dt>
+                <dd>
+                    <p class="agree">
+                        <input type="checkbox" name="agree" id="">
+                        <span class="agree-text">同意します</span>
+                    </p>
+                    <p class="agree-link">個人情報の取り扱いについて、詳しくは弊社の個人情報保護方針をご覧ください。</p>
+                </dd>
+            </dl>
+
+            <input type="submit" value="送信する" class="form-send">
+            
+        </form>
+    </section>
+   
+   
+    <footer>
+        <div class="footer-wrapper">
+            <nav class="footer-nav">
+                <div class="footer-nav-content">
+                    <ul>
+                        <a href="index.html">
+                            <li>トップ</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-nav-content">
+                    <ul>
+                        <a href="business.html">
+                            <li>事業内容</li>
+                        </a>
+                        <li>事業1</li>
+                        <li>事業2</li>
+                        <li>事業3</li>
+                        <li>事業4</li>
+                        <li>事業5</li>
+                        <li>事業6</li>
+                    </ul>
+                </div>
+                <div class="footer-nav-content">
+                    <ul>
+                        <a href="company.html">
+                            <li>企業情報</li>
+                        </a>
+                        <li>採用情報</li>
+                        <li>国際ネットワーク</li>
+                    </ul>
+                </div>
+                <div class="footer-nav-content">
+                    <ul>
+                        <a href="contact.html">
+                            <li>お問い合わせ</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer-flex">
+                <small class="copyright">copyright</small>
+                <a href="#page-top">
+                    <div class="scrollup"></div>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

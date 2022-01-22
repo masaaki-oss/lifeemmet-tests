@@ -1,0 +1,91 @@
+@charset "utf-8";
+.page-title h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 30px;
+}
+.page-title p {
+    font-size: 14px;
+    margin-top: 60px;
+    text-align: center;
+}
+.page-title p.small {
+    margin-top: 11px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.form {
+    margin-top: 70px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    background: #eef2f3;
+    height: 40px;
+}
+textarea {
+    resize: none;
+    height: 300px;
+}
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.contact-form dl {
+    margin-bottom: 45px;
+    /* display: flex;
+    align-items: center;
+    justify-content: ; */
+}
+.contact-form dl dt {
+    width: 153px;
+    float: left;
+    font-size: 14px;
+    font-family: 'Sans JP', sans-serif;
+    font-weight: 500;
+    line-height: 1.85;
+    text-align: right;
+    letter-spacing: .7px;
+}
+.contact-form dl dd {
+    margin-left: 206px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+input[type="checkbox"] {
+
+}
+.agree-text {
+    letter-spacing: .7;
+    margin-left: 10px;
+}
+.agree-link {
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: .6px;
+}
+.form-send {
+    display: block;
+    margin: 0 auto;
+    width: 435px;
+    height: 60px;
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    background: #2e6c9b;
+}
