@@ -1,0 +1,16 @@
+body {
+  background: #000;
+}
+
+body h1 mark {
+  background-color: yellow;
+}
+
+body p {
+  color: #ff0000;
+}
+
+body ul li {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

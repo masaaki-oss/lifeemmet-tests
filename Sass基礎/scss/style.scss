@@ -1,0 +1,13 @@
+@import "color";
+body {
+    background: $black;
+    h1 mark {
+        background-color: $yellow;
+    }
+    p {
+        color: $red;
+    }
+    ul li {
+        color: $white;
+    }
+}
