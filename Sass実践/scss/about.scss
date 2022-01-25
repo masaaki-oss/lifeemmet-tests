@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+@import "mixin";
+* {
+    line-height: 1;
+}
+.about-com {
+    padding-bottom: 100px;
+}
+.about-com-all {
+    padding: 100px;
+    width: 60%;
+    margin: 0 auto;
+    border: solid 2px #ddd;
+    -webkit-box-shadow: 20px 20px 30px #ddd;
+    box-shadow: 20px 20px 30px #ddd;
+    display: flex;
+    .about_com_list {
+        width: 50%;
+        .about_com_item {
+            margin-bottom: 40px;
+            .about_com_ttl {
+                font-size: 23px;
+                padding-bottom: 8px;
+            }
+            .about_com_txt {
+                font-size: 20px;
+                padding-bottom: 8px;
+            }
+        }
+    }
+}
+
+
+.about-mem {
+    padding-bottom: 100px;
+    .inner {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .about_mem_all {
+        margin: 0 auto;
+        padding: 100px;
+        display: flex;
+        border: solid 2px #ddd;
+        -webkit-box-shadow: 20px 20px 30px #ddd;
+        box-shadow: 20px 20px 30px #ddd;
+        .about_mem_per {
+            width: 50%;
+            margin: 0 4%;
+            .about_mem_ttl {
+                font-size: 23px;
+                position: relative;
+                margin-bottom: 30px;
+                &::before {
+                    content: "";
+                    width: 4px;
+                    height: 30px;
+                    background-color: #75a9ff;
+                    position: absolute;
+                    top: -15%;
+                    left: -3%;
+                }
+            }
+            
+            .about_mem_name {
+                font-size: 20px;
+                margin-bottom: 35px;
+            }
+            .about_mem_text {
+                font-size: 20px;
+                line-height: 1.8;
+            }
+        }
+    }
+}
+
+
+.acc-map-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+    .about-acc-map {
+        width: 55%;
+        height: 350px;
+        clip-path: polygon(0% 0%, 0% 400%, 100% 0%);
+        -webkit-clip-path: polygon(0% 0%, 0% 400%, 100% 0%);
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

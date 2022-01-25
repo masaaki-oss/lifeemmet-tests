@@ -1,0 +1,64 @@
+.service-text {
+  padding: 0 3%;
+  letter-spacing: .2em;
+  line-height: 1.8em;
+  padding-bottom: 100px;
+}
+
+.service-text strong {
+  color: $yellowText;
+}
+
+.service-text span {
+  border-bottom: 1px solid $yellowText;
+}
+
+.service-wrap {
+  padding: 0 6%;
+}
+
+.service-wrap .service-item {
+  width: 60vw;
+  height: 160px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  -webkit-box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+.service-wrap .service-item .service-item-img {
+  width: 25%;
+}
+
+.service-wrap .service-item .service-item-img img {
+  width: 100%;
+  height: auto;
+}
+
+.service-wrap .service-item p {
+  width: 65%;
+  font-size: 20px;
+}
+
+.arrow {
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.arrow a {
+  float: right;
+}
+/*# sourceMappingURL=service.css.map */

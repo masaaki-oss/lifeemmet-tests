@@ -1,0 +1,75 @@
+.feature {
+  background: #f7f6f6;
+}
+
+.feature .feature-text {
+  padding: 0 3%;
+}
+
+.feature .feature-text p {
+  letter-spacing: .2em;
+  line-height: 1.8em;
+  padding-bottom: 140px;
+}
+
+.feature .feature-text p strong {
+  color: $yellowText;
+}
+
+.feature .feature-text p span {
+  border-bottom: 1px solid $yellowText;
+}
+
+.feature .feature-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  padding-bottom: 100px;
+  list-style: none;
+}
+
+.feature .feature-list .feature-item {
+  width: 25%;
+  height: 500px;
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.feature .feature-list .feature-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.feature .feature-list .feature-item .feature-img {
+  width: 100%;
+  background-position: 60% 50%;
+  background-size: cover;
+}
+
+.feature .feature-list .feature-item .feature-img img {
+  width: 100%;
+  height: auto;
+}
+
+.feature .feature-list .feature-item .feature-text {
+  padding: 0 3%;
+  margin: 0 auto;
+}
+
+.feature .feature-list .feature-item .feature-text p {
+  padding: 0 24px;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=feature.css.map */

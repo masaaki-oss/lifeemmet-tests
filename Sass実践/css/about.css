@@ -1,0 +1,118 @@
+* {
+  line-height: 1;
+}
+
+.about-com {
+  padding-bottom: 100px;
+}
+
+.about-com-all {
+  padding: 100px;
+  width: 60%;
+  margin: 0 auto;
+  border: solid 2px #ddd;
+  -webkit-box-shadow: 20px 20px 30px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-com-all .about_com_list {
+  width: 50%;
+}
+
+.about-com-all .about_com_list .about_com_item {
+  margin-bottom: 40px;
+}
+
+.about-com-all .about_com_list .about_com_item .about_com_ttl {
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+
+.about-com-all .about_com_list .about_com_item .about_com_txt {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.about-mem {
+  padding-bottom: 100px;
+}
+
+.about-mem .inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-mem .about_mem_all {
+  margin: 0 auto;
+  padding: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 2px #ddd;
+  -webkit-box-shadow: 20px 20px 30px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+}
+
+.about-mem .about_mem_all .about_mem_per {
+  width: 50%;
+  margin: 0 4%;
+}
+
+.about-mem .about_mem_all .about_mem_per .about_mem_ttl {
+  font-size: 23px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.about-mem .about_mem_all .about_mem_per .about_mem_ttl::before {
+  content: "";
+  width: 4px;
+  height: 30px;
+  background-color: #75a9ff;
+  position: absolute;
+  top: -15%;
+  left: -3%;
+}
+
+.about-mem .about_mem_all .about_mem_per .about_mem_name {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.about-mem .about_mem_all .about_mem_per .about_mem_text {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.acc-map-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.acc-map-wrapper .about-acc-map {
+  width: 55%;
+  height: 350px;
+  clip-path: polygon(0% 0%, 0% 400%, 100% 0%);
+  -webkit-clip-path: polygon(0% 0%, 0% 400%, 100% 0%);
+}
+
+.acc-map-wrapper .about-acc-map iframe {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=about.css.map */

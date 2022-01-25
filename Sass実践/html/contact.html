@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>プログラミング教材「CODESTAR」</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="確認テストのページです">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"></link>
+    <link rel="stylesheet" href="../css/common2.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css"></link>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="header-all">
+                <a href="index.html" class="logo">
+                    <img src="../img/logo.png" alt="">
+                </a>
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a class="respons" href="../index.html">TOP</a></li>
+                        <li><a href="about.html">ABOUT<small>会社概要</small></a></li>
+                        <li><a href="feature.html">FEATURE<small>特徴</small></a></li>
+                        <li><a href="service.html">SERVICE<small>事業内容</small></a></li>
+                        <li><a href="contact.html">CONTACT<small>お問い合わせ</small></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="top">
+            <div class="top-bg">
+                <div class="top-img">
+                    <h1>Contact</h1>
+                    <p>お問い合わせ</p>
+                </div>
+            </div>
+        </section>
+        <section class="breadcrumb">
+            <ul>
+              <li>
+                <a href="../index.html"><span>HOME</span></a>
+              </li>
+              <li>
+                <a href="contact.html"><span class="color">CONTACT</span></a>
+              </li>
+            </ul>
+          </section>
+          <section class="contact">
+              <div class="inner">
+                  <div class="section-title">
+                    <h2>CONTACT<small>お問い合わせ</small></h2>
+                  </div>
+                  <div class="contact-item">
+                    <p class="contact-text">
+                        弊社にご興味/関心を頂き、誠に有難うございます。制作/運用料金などの見積もり、サービスに関するご相談など、気軽にお問い合わせ下さい。弊社の担当者が内容の確認後、ご連絡させて頂きます。下記よりお問い合わせ項目を記入下さい。
+                    </p>
+                  </div>
+                  <form action="#" class="contact-form" id="form">
+                      <div class="contact-box">
+                          <label for="name" class="contact-form-title">お問い合わせ項目</label>
+                          <select name="subject" class="contact-form-box-1" required="required">
+                              <optgroup value>
+                                    <option value="プルダウンメニューで問い合わせ内容を選択" class="select-with" hidden>お問い合わせ内容を選択</option>
+                                    <option value="サイト制作/運用の見積もり" class="select-with">サイト制作/運用の見積もり</option>
+                                    <option value="システム制作/運用の見積もり" class="select-with">システム開発/運用の見積もり</option>
+                                    <option value="その他" class="select-with">その他</option>
+                              </optgroup>
+                          </select>
+                      </div>
+                      <div class="contact-box">
+                          <label for="name1" class="contact-form-title">おなまえ</label>
+                          <input type="text" class="contact-form-box-2" name="" required="required" placeholder="お名前をご入力下さい" id="name1">
+                      </div>
+                      <div class="contact-box">
+                          <label for="email" class="contact-form-title">メールアドレス</label>
+                          <input type="email"name="" class="contact-form-box-2" required="required" placeholder="例）example@example.com" id="email">
+                      </div>
+                      <div class="contact-box">
+                          <label for="message" class="contact-form-title">お問い合わせ内容</label>
+                          <textarea name="message" class="contact-textarea" id="message" cols="30" rows="10" required="required" placeholder="お問い合わせ内容をご入力ください"></textarea>
+                      </div>
+                      <button type="submit" class="contact-btn">送信する</button>
+                  </form>
+              </div>
+          </section>
+        <footer>
+            <div class="footer-logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></div>
+            <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="footer-item">
+                  <a href="feature.html">Feature</a>
+                </li>
+                <li class="footer-item">
+                  <a href="service.html">Service</a>
+                </li>
+                <li class="footer-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="footer-sns">
+                <li class="sns-icon1">
+                  <a href="#"><img src="../img/twitter.png" alt="Twitterアイコン"></a>
+                </li>
+                <li class="sns-icon2">
+                  <a href="#"><img src="../img/instagram.png" alt="Instagramアイコン"></a>
+                </li>
+            </ul>
+            <small class="footer-text">©CODESTAR All Right Reserved.</small>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+</body>
+</html>
