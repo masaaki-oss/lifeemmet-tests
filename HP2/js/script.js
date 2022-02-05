@@ -1,7 +1,7 @@
 $(function(){
 
     // fadeUpしたい要素にクラスを追加しています
-    $('footer, .contact, .business-disc article h3, .business-disc article p, .business-disc article img').addClass("fadeUpTrigger");
+    // $('footer, .contact, .business-disc article h3, .business-disc article p, .business-disc article img').addClass("fadeUpTrigger");
 
     function fadeIn() {
         $('.fadeUpTrigger').each(function(){// fadeUpTriggerクラスの各要素に対して
@@ -11,13 +11,13 @@ $(function(){
             if (scroll >= triTop - winHeight){ // 画面内に要素が入ったかを判断
               $(this).addClass('fadeUp');// fadeUpクラスを付与
             }else{
-            //   $(this).removeClass('fadeUp');
-            }
+              $(this).removeClass('fadeUp');
+          }
           });
     }
     $(window).scroll(function () {// スクロールしたら
 
-        // addScrollClass();
+        addScrollClass();
 
         fadeIn();// 関数を実行
     });
@@ -28,4 +28,30 @@ $(function(){
         speed: 600
     });
 
+
+
+    window.onunload = function() {};
+
+    function sizecheck() {
+    w = window.innerWidth ? window.innerWidth : $(window).width();
+    h = window.innerHeight ? window.innerHeight : $(window).height();
+    }
+
+    sizecheck();
+
+    $(function () {
+
+    if (w > 801) {
+    } else { 
+    $("header .drawer").click(function(){
+    $('body').toggleClass('nav-open');
+    $('header .header-nav').fadeToggle(200);
+        });
+
+    $("header li a").click(function(){
+    $('body').toggleClass('nav-open');
+    $('header .header-nav').fadeToggle(200);
+        });
+    }
+    }); 
 });
